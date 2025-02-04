@@ -53,7 +53,7 @@ const OtpInputWithValidation = () => {
                 ref={(reference) =>
                   (otpBoxReference.current[index] = reference)
                 }
-                className={`border w-20 h-auto text-black p-3 rounded-md block bg-white focus:border-2 text-center focus:outline-none appearance-none font-bold`}
+                className={`w-20 h-auto text-black p-3 rounded-md block bg-white text-center appearance-none font-bold`}
               />
             ))}
           </div>
